@@ -8,6 +8,7 @@ import { CustomersComponent } from './customers/customers.component';
 import { AccountsComponent } from './accounts/accounts.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NewCustomerComponent } from './new-customer/new-customer.component';
+import { CustomerAccountsComponent } from './customer-accounts/customer-accounts.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { NewCustomerComponent } from './new-customer/new-customer.component';
     CustomersComponent,
     AccountsComponent,
     NewCustomerComponent,
+    CustomerAccountsComponent,
 
   ],
   imports: [
